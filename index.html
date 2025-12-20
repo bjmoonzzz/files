@@ -5,32 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文件</title>
     <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: #f9f9f9; }
-        .file-list { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 20px; }
-        h1 { text-align: center; color: #333; }
-        ul { list-style: none; padding: 0; }
-        li { border-bottom: 1px solid #eee; padding: 10px 0; display: flex; align-items: center; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: #f9f9f9; color: #333; }
+        .container { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 20px; }
+        h1 { text-align: center; margin-bottom: 20px; font-size: 1.5rem; }
+        ul { list-style: none; padding: 0; margin: 0; }
+        li { border-bottom: 1px solid #eee; padding: 12px 0; display: flex; align-items: center; justify-content: space-between; }
         li:last-child { border-bottom: none; }
-        a { text-decoration: none; color: #0366d6; font-weight: bold; flex-grow: 1; }
+        a { text-decoration: none; color: #0366d6; font-weight: 500; font-size: 1rem; flex-grow: 1; margin-right: 10px; word-break: break-all; }
         a:hover { text-decoration: underline; }
-        .size { color: #666; font-size: 0.85rem; margin-left: 10px; }
+        .size { color: #888; font-size: 0.85rem; white-space: nowrap; background: #f0f0f0; padding: 2px 6px; border-radius: 4px; }
+        .empty { text-align: center; color: #999; padding: 20px; }
+        footer { margin-top: 20px; text-align: center; font-size: 0.8rem; color: #aaa; }
     </style>
 </head>
 <body>
-    <h1>📂 文件</h1>
-    <div class="file-list">
+    <div class="container">
+        <h1>📂 文件</h1>
         <ul>
             <li>
-                <a href="./downloads/MarkdownViewerPlusPlus-0.8.2-x86.zip">MarkdownViewerPlusPlus-0.8.2-x86.zip</a>
-                <span class="size">749 KB</span>
-            </li>
-            
-            <li>
                 <a href="./downloads/MarkdownViewerPlusPlus-0.8.2-x64.zip">MarkdownViewerPlusPlus-0.8.2-x64.zip</a>
-                <span class="size">749 KB</span>
+                <span class="size">756K</span>
             </li>
-
-            </ul>
+            <li>
+                <a href="./downloads/MarkdownViewerPlusPlus-0.8.2-x86.zip">MarkdownViewerPlusPlus-0.8.2-x86.zip</a>
+                <span class="size">756K</span>
+            </li>
+            <li>
+                <a href="./downloads/NppMarkdownPanel-0.9.0.0-x64.zip">NppMarkdownPanel-0.9.0.0-x64.zip</a>
+                <span class="size">1.1M</span>
+            </li>
+            <li>
+                <a href="./downloads/NppMarkdownPanel-0.9.0.0-x86.zip">NppMarkdownPanel-0.9.0.0-x86.zip</a>
+                <span class="size">1.1M</span>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
